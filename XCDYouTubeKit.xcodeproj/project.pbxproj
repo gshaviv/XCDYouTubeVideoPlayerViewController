@@ -779,6 +779,7 @@
 				INFOPLIST_FILE = XCDYouTubeKit/Info.plist;
 				PRODUCT_NAME = XCDYouTubeKit;
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -796,6 +797,7 @@
 				INFOPLIST_FILE = XCDYouTubeKit/Info.plist;
 				PRODUCT_NAME = XCDYouTubeKit;
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = "Code Coverage";
@@ -813,6 +815,7 @@
 				INFOPLIST_FILE = XCDYouTubeKit/Info.plist;
 				PRODUCT_NAME = XCDYouTubeKit;
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -922,6 +925,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = XCDYouTubeKit;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -929,6 +933,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = XCDYouTubeKit;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -989,6 +994,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = XCDYouTubeKit;
+				SKIP_INSTALL = YES;
 			};
 			name = "Code Coverage";
 		};
@@ -1090,6 +1096,7 @@
 				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = XCDYouTubeKit/Info.plist;
 				PRODUCT_NAME = XCDYouTubeKit;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = (
 					"$(inherited)",
@@ -1106,6 +1113,7 @@
 				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = XCDYouTubeKit/Info.plist;
 				PRODUCT_NAME = XCDYouTubeKit;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = (
 					"$(inherited)",
@@ -1122,6 +1130,7 @@
 				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = XCDYouTubeKit/Info.plist;
 				PRODUCT_NAME = XCDYouTubeKit;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = (
 					"$(inherited)",
