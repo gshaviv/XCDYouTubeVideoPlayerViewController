@@ -1,3 +1,11 @@
+#### Version 2.3.2
+
+* Adaptation to YouTube API change. (#186)
+
+#### Version 2.3.1
+
+* Improved Swift 2.0 interoperability. (#178)
+
 #### Version 2.3.0
 
 * Raised deployment target to iOS 7.0 and OS X 10.9.
