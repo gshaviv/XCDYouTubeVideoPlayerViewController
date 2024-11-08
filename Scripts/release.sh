@@ -4,8 +4,8 @@ function update_badges()
 {
     echo "Updating badges"
     set -v
-    sed -i "" "s/$1\.svg/$2.svg/g" "README.md"
-    sed -i "" "s/branch.$1/branch.$2/g" "README.md"
+    sed -i "" "s#$1\.svg#$2.svg#g" "README.md"
+    sed -i "" "s#branch/$1#branch/$2#g" "README.md"
     set +v
     git add "README.md"
     git commit -m "Point badges to the $2 branch"
@@ -60,7 +60,7 @@ update_badges "master" "develop"
 
 echo "Things remaining to do"
 echo "  * git push with tags (master and develop)"
-echo "  * check that build is passing on travis: https://travis-ci.org/0xced/XCDYouTubeKit/"
+echo "  * check that build is passing on CircleCI: https://circleci.com/gh/0xced/XCDYouTubeKit"
 echo "  * pod trunk push XCDYouTubeKit.podspec"
 echo "  * create a new release on GitHub: https://github.com/0xced/XCDYouTubeKit/releases/new"
 echo "  * close milestone on GitHub if applicable: https://github.com/0xced/XCDYouTubeKit/milestones"
